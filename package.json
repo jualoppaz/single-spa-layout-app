@@ -25,7 +25,8 @@
     "sass": "^1.24.4",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-single-spa": "^1.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.5"
   },
   "eslintConfig": {
     "root": true,
