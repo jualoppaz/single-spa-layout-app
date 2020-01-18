@@ -14,6 +14,11 @@ export default {
   components: {
     Topbar,
     Sidebar
+  },
+  beforeCreate() {
+    if (!sessionStorage.getItem("token")) {
+      window.history.pushState(null, null, "/login");
+    }
   }
 };
 </script>
