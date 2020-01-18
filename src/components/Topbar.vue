@@ -1,6 +1,6 @@
 <template>
   <div id="topbar">
-    <b-navbar toggleable="false" type="light" variant="light">
+    <b-navbar type="light" variant="light">
       <!--<b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>-->
 
       <b-navbar-brand>
