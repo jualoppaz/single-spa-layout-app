@@ -2,18 +2,21 @@
   <div id="layout-app">
     <Topbar />
     <Sidebar />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Topbar from "./components/Topbar.vue";
-import Sidebar from "./components/Sidebar.vue";
+import Topbar from './components/Topbar.vue';
+import Sidebar from './components/Sidebar.vue';
+import Footer from './components/Footer.vue';
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
     Topbar,
-    Sidebar
+    Sidebar,
+    Footer,
   },
   beforeCreate() {
     if (!sessionStorage.getItem("token")) {
@@ -23,13 +26,17 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  height: 100%;
+  margin-bottom: 150px !important;
+}
+
+div#layout-app + div[id*="-app"] {
+  padding-top: 77px;
 }
 </style>
