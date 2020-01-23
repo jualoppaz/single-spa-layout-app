@@ -3,9 +3,16 @@ import singleSpaVue from "single-spa-vue";
 import App from "./App.vue";
 
 import { BootstrapVue } from "bootstrap-vue";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
+
+library.add(faGithub);
+
+Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.use(BootstrapVue);
 
