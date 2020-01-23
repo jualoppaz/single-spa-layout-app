@@ -13,13 +13,13 @@
 
 <script>
 export default {
-  name: "Topbar",
+  name: 'Sidebar',
   props: {},
   methods: {
     navigateTo(url) {
       window.history.pushState(null, null, url);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -48,5 +48,6 @@ a {
 
 #sidebar ul {
   border-right: 1px solid #eee;
+  padding-top: 76px;
 }
 </style>
