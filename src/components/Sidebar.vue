@@ -13,13 +13,13 @@
 
 <script>
 export default {
-  name: "Sidebar",
+  name: 'Sidebar',
   props: {},
   methods: {
     navigateTo(url) {
       window.history.pushState(null, null, url);
-    }
-  }
+    },
+  },
 };
 </script>
 
