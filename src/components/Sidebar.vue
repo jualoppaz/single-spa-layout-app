@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "Topbar",
+  name: "Sidebar",
   props: {},
   methods: {
     navigateTo(url) {

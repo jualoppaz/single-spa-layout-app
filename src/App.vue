@@ -19,10 +19,10 @@ export default {
     Footer,
   },
   beforeCreate() {
-    if (!sessionStorage.getItem("token")) {
-      window.history.pushState(null, null, "/login");
+    if (!sessionStorage.getItem('token')) {
+      window.history.pushState(null, null, '/login');
     }
-  }
+  },
 };
 </script>
 

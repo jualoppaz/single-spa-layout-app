@@ -25,21 +25,21 @@
 
 <script>
 export default {
-  name: "Topbar",
+  name: 'Topbar',
   props: {},
   methods: {
     logout() {
-      sessionStorage.removeItem("user");
-      sessionStorage.removeItem("token");
-      window.history.pushState(null, null, "/login");
-    }
+      sessionStorage.removeItem('user');
+      sessionStorage.removeItem('token');
+      window.history.pushState(null, null, '/login');
+    },
   },
   computed: {
     username() {
-      const user = sessionStorage.getItem("user");
-      return user ? JSON.parse(user).username : "";
-    }
-  }
+      const user = sessionStorage.getItem('user');
+      return user ? JSON.parse(user).username : '';
+    },
+  },
 };
 </script>
 
