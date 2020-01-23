@@ -48,5 +48,6 @@ a {
 
 #sidebar ul {
   border-right: 1px solid #eee;
+  padding-top: 76px;
 }
 </style>
