@@ -15,7 +15,7 @@
     "bootstrap": "4.4.1",
     "bootstrap-vue": "2.2.1",
     "core-js": "3.4.4",
-    "single-spa-vue": "1.5.2",
+    "single-spa-vue": "1.7.0",
     "vue": "2.6.11"
   },
   "devDependencies": {
