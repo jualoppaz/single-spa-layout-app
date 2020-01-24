@@ -33,10 +33,11 @@ html {
 }
 body {
   height: 100%;
-  margin-bottom: 150px !important;
 }
 
 div#layout-app + div[id*="-app"] {
-  padding-top: 77px;
+  > div {
+      padding-top: 77px 150px 77px;
+  }
 }
 </style>
