@@ -1,6 +1,6 @@
 {
   "name": "single-spa-layout-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/single-spa-layout-app.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
