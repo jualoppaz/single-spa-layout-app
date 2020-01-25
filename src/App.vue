@@ -37,7 +37,7 @@ body {
 
 div#layout-app + div[id*="-app"] {
   > div {
-      padding-top: 77px 150px 77px;
+      padding: 77px 0 77px 150px;
   }
 }
 </style>
