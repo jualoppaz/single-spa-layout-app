@@ -34,10 +34,4 @@ html {
 body {
   height: 100%;
 }
-
-div#layout-app + div[id*="-app"] {
-  > div {
-      padding: 77px 0 77px 150px;
-  }
-}
 </style>
