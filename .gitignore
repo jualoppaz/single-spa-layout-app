@@ -1,10 +1,6 @@
 .DS_Store
 node_modules
-dist/demo.html
-dist/favicon.ico
-dist/index.html
-dist/*.hot-update.js
-dist/*.hot-update.json
+dist
 
 # local env files
 .env.local
