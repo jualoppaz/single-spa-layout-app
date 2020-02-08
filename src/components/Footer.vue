@@ -3,7 +3,7 @@
     <div class="container">
       <div class="text-center">
         Copyright © 2020
-        <a href="http://www.juanmanuellopezpazos.es" target="_blank"
+        <a href="http://www.juanmanuellopezpazos.es" target="_blank" id="personal-page-link"
           >Juan Manuel López Pazos</a
         >
         <a
@@ -52,16 +52,36 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 20px;
-  height: 77px;
+  height: 136px;
+
+  @media screen and (min-width:768px){
+    height: 77px;
+  }
 
   > div {
     color: #ebedf0;
     line-height: 2;
   }
 
-  a#github-link {
-    margin-left: 10px;
-    color: #ebedf0;
+  a{
+
+    &#github-link {
+      margin-left: 10px;
+      color: #ebedf0;
+      display: block;
+
+      @media screen and (min-width:768px){
+        display:inline;
+      }
+    }
+
+    &#personal-page-link{
+      display: block;
+
+      @media screen and (min-width:768px){
+        display:inline;
+      }
+    }
   }
 }
 </style>

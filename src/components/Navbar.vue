@@ -1,6 +1,6 @@
 <template>
-  <div id="sidebar">
-    <b-nav vertical class="bg-light">
+  <div id="navbar">
+    <b-nav class="bg-light">
       <b-nav-item href="/angular" v-on:click.prevent="navigateTo('/angular')"
         >Angular</b-nav-item
       >
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Sidebar',
+  name: 'Navbar',
   props: {},
   methods: {
     navigateTo(url) {
@@ -31,12 +31,8 @@ h3 {
 ul {
   list-style-type: none;
   padding: 0;
-  width: 150px;
-
-  &.nav {
-    position: fixed;
-    height: 100%;
-  }
+  text-align: center;
+  display: block;
 }
 li {
   display: inline-block;
@@ -46,7 +42,7 @@ a {
   color: #42b983;
 }
 
-#sidebar ul {
+#navbar ul {
   border-right: 1px solid #eee;
   padding-top: 76px;
 }

@@ -1,21 +1,21 @@
 <template>
   <div id="layout-app">
-    <Topbar />
-    <Sidebar />
+    <Header />
+    <Navbar />
     <Footer />
   </div>
 </template>
 
 <script>
-import Topbar from './components/Topbar.vue';
-import Sidebar from './components/Sidebar.vue';
+import Header from './components/Header.vue';
+import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
 
 export default {
   name: 'app',
   components: {
-    Topbar,
-    Sidebar,
+    Header,
+    Navbar,
     Footer,
   },
   beforeCreate() {

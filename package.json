@@ -1,7 +1,7 @@
 {
   "name": "single-spa-layout-app",
-  "version": "0.1.0",
-  "description": "Vue application with topbar and sidebar menus for be included in a single-spa application as registered app.",
+  "version": "0.1.1",
+  "description": "Vue application with header, navbar and footer for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-layout-app.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
