@@ -1,16 +1,13 @@
 <template>
-  <div id="topbar" class="clearfix">
+  <div id="header" class="clearfix">
     <b-navbar type="light" variant="light" fixed="top">
       <b-navbar-brand>
         <a href="https://single-spa.js.org" target="_blank">
           <img id="logo" src="../assets/logo.svg" />
+          Single spa
         </a>
-        Single spa
       </b-navbar-brand>
 
-      <b-navbar-nav>
-        <b-nav-text>Login example with NPM packages</b-nav-text>
-      </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-item-dropdown right>
           <template v-slot:button-content>
@@ -25,7 +22,7 @@
 
 <script>
 export default {
-  name: 'Topbar',
+  name: 'Header',
   props: {},
   methods: {
     logout() {
@@ -59,7 +56,7 @@ a {
   color: #42b983;
 }
 
-#topbar {
+#header {
   nav.navbar {
     border-bottom: 1px solid #eee;
   }
