@@ -1,6 +1,9 @@
 <template>
   <div id="navbar">
     <b-nav class="bg-light">
+      <b-nav-item href="/" v-on:click.prevent="navigateTo('/')"
+        ><font-awesome-icon :icon="['fas', 'home']"/></b-nav-item
+      >
       <b-nav-item href="/angular" v-on:click.prevent="navigateTo('/angular')"
         >Angular</b-nav-item
       >
