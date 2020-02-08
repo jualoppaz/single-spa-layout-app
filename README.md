@@ -8,7 +8,7 @@
 
 # single-spa-layout-app
 
-This is a Vue application example used as NPM package in [single-spa-login-example-with-npm-modules](https://github.com/jualoppaz/single-spa-login-example-with-npm-modules) in order to register an application. See the installation instructions there.
+This is a Vue application example used as NPM package in [single-spa-login-example-with-npm-packages](https://github.com/jualoppaz/single-spa-login-example-with-npm-packages) in order to register an application. See the installation instructions there.
 
 ## ✍🏻 Motivation
 
@@ -16,7 +16,7 @@ This is a vue application built as library which only contains the navbar and si
 
 ## 💻 Run in localhost
 
-This application is designed especially for be integrated in [single-spa-login-example-with-npm-modules](https://github.com/jualoppaz/single-spa-login-example-with-npm-modules), but if you want you can run only this application following this steps:
+This application is designed especially for be integrated in [single-spa-login-example-with-npm-packages](https://github.com/jualoppaz/single-spa-login-example-with-npm-packages), but if you want you can run only this application following this steps:
 
 ```
 npm install
