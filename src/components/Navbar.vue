@@ -10,6 +10,9 @@
       <b-nav-item href="/vue" v-on:click.prevent="navigateTo('/vue')"
         >Vue</b-nav-item
       >
+      <b-nav-item href="/react" v-on:click.prevent="navigateTo('/react')"
+        >React</b-nav-item
+      >
     </b-nav>
   </div>
 </template>
