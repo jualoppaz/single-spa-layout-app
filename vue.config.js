@@ -18,4 +18,16 @@ module.exports = {
       }),
     ],
   },
+  chainWebpack: (config) => {
+    config.externals([
+      '@fortawesome/fontawesome-svg-core',
+      '@fortawesome/free-brands-svg-icons',
+      '@fortawesome/free-solid-svg-icons',
+      '@fortawesome/vue-fontawesome',
+      'bootstrap',
+      'bootstrap-vue',
+      'single-spa-vue',
+      'vue',
+    ]);
+  },
 };

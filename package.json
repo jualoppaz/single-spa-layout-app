@@ -1,29 +1,19 @@
 {
   "name": "single-spa-layout-app",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Vue application with header, navbar and footer for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-layout-app.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --inline-vue --formats umd --name single-spa-layout-app src/singleSpaEntry.js",
+    "build": "vue-cli-service build --target lib --formats umd --name single-spa-layout-app src/singleSpaEntry.js",
     "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "1.2.26",
-    "@fortawesome/free-brands-svg-icons": "5.12.0",
-    "@fortawesome/free-solid-svg-icons": "5.12.0",
-    "@fortawesome/vue-fontawesome": "0.1.9",
-    "bootstrap": "4.4.1",
-    "bootstrap-vue": "2.2.1",
-    "core-js": "3.4.4",
-    "single-spa-vue": "1.7.0",
-    "vue": "2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.1.0",
     "@vue/cli-plugin-eslint": "4.1.0",
     "@vue/cli-service": "4.1.0",
     "babel-eslint": "10.0.3",
+    "core-js": "3.4.4",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.20.0",
