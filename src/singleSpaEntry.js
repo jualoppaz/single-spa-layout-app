@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Vue from 'vue';
 import singleSpaVue from 'single-spa-vue';
 
