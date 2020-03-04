@@ -67,7 +67,7 @@ The **vueLifecycles** object contains all **single-spa-vue** methods for the **s
 ```json
 {
   "name": "single-spa-layout-app",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Vue application with header, navbar and footer for be included in a single-spa application as registered app.",
   "main": "dist/single-spa-layout-app.umd.js",
   "scripts": {
