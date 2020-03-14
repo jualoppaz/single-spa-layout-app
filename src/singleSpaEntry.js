@@ -10,6 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 import App from './App.vue';
 
+import './styles/styles.scss';
+
 library.add(faGithub);
 library.add(faHome);
 

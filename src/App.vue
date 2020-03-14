@@ -22,6 +22,11 @@ export default {
     if (!sessionStorage.getItem('token')) {
       window.history.pushState(null, null, '/login');
     }
+
+    document.querySelector('body').classList.add('mb');
+  },
+  destroyed() {
+    document.querySelector('body').classList.remove('mb');
   },
 };
 </script>

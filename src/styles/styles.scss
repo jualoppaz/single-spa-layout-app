@@ -1,0 +1,6 @@
+body {
+  &.mb {
+    // required for avoid footer displays over main content in small devices
+    margin-bottom: 100px;
+  }
+}
